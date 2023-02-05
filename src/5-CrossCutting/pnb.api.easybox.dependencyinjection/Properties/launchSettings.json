@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "pnb.api.easybox.dependencyinjection": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:61054;http://localhost:61056"
+    }
+  }
+}

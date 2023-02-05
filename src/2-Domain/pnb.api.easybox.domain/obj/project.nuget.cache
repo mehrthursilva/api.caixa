@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c1R+mu82ANwfyQs5YMo65GGEzNCSUuZfHPf7Plt8HXO0G/rUfbS+jPlr0xN59askQAvxSMptcLF1q8fpafjUSw==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\chaos\\api.caixa.facil\\api.caixa\\src\\2-Domain\\pnb.api.easybox.domain\\pnb.api.easybox.domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpnet\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

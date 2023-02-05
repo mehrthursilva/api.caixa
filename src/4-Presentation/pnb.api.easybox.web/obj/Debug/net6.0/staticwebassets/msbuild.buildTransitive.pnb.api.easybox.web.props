@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\pnb.api.easybox.web.props" />
+</Project>

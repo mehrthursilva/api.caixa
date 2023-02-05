@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Aplication", "1-Aplication", "{7DDCC727-92EE-4668-A77E-36A2DF985468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{5C1C05CB-4743-44C7-8A21-CC41E6D7E230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{A73159A8-7AFC-4187-89B1-51124BAE1309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Presentation", "4-Presentation", "{40B8AEE6-3C13-4829-8DAB-A88F06F403F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-CrossCutting", "5-CrossCutting", "{C8321C5F-6139-409D-B854-9A1A9C26FEB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E314E60F-21B4-4D59-BAE9-6D2364742976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E025AD66-755A-41AE-8A1F-BDA88EDA747F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.aplication", "src\1-Aplication\pnb.api.easybox.aplication\pnb.api.easybox.aplication.csproj", "{9B7FB232-FF64-4E79-A515-14A212394DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.domain", "src\2-Domain\pnb.api.easybox.domain\pnb.api.easybox.domain.csproj", "{D09DAAF5-C007-44AC-85D2-995037FFD7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.repository", "src\3-Infra\pnb.api.easybox.repository\pnb.api.easybox.repository.csproj", "{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.proxy", "src\3-Infra\pnb.api.easybox.proxy\pnb.api.easybox.proxy.csproj", "{1722F5C4-CE3F-4D38-B149-6F345B91DB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.web", "src\4-Presentation\pnb.api.easybox.web\pnb.api.easybox.web.csproj", "{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.api.easybox.dependencyinjection", "src\5-CrossCutting\pnb.api.easybox.dependencyinjection\pnb.api.easybox.dependencyinjection.csproj", "{289A4230-C9C7-4D56-AAF4-21FF58410868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pnb.test.easybox.aplication", "src\Tests\pnb.test.easybox.aplication\pnb.test.easybox.aplication.csproj", "{2E5F4887-E390-4598-B7BD-9B3E63E513E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7FB232-FF64-4E79-A515-14A212394DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7FB232-FF64-4E79-A515-14A212394DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7FB232-FF64-4E79-A515-14A212394DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7FB232-FF64-4E79-A515-14A212394DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09DAAF5-C007-44AC-85D2-995037FFD7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09DAAF5-C007-44AC-85D2-995037FFD7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09DAAF5-C007-44AC-85D2-995037FFD7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09DAAF5-C007-44AC-85D2-995037FFD7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1722F5C4-CE3F-4D38-B149-6F345B91DB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1722F5C4-CE3F-4D38-B149-6F345B91DB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1722F5C4-CE3F-4D38-B149-6F345B91DB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1722F5C4-CE3F-4D38-B149-6F345B91DB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289A4230-C9C7-4D56-AAF4-21FF58410868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289A4230-C9C7-4D56-AAF4-21FF58410868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289A4230-C9C7-4D56-AAF4-21FF58410868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289A4230-C9C7-4D56-AAF4-21FF58410868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5F4887-E390-4598-B7BD-9B3E63E513E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5F4887-E390-4598-B7BD-9B3E63E513E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5F4887-E390-4598-B7BD-9B3E63E513E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5F4887-E390-4598-B7BD-9B3E63E513E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B7FB232-FF64-4E79-A515-14A212394DDE} = {7DDCC727-92EE-4668-A77E-36A2DF985468}
+		{D09DAAF5-C007-44AC-85D2-995037FFD7CE} = {5C1C05CB-4743-44C7-8A21-CC41E6D7E230}
+		{FB596DAD-BEFF-4A6F-AD96-2E0D8AF5629B} = {A73159A8-7AFC-4187-89B1-51124BAE1309}
+		{1722F5C4-CE3F-4D38-B149-6F345B91DB0A} = {A73159A8-7AFC-4187-89B1-51124BAE1309}
+		{8A4FE385-5711-45BB-AAAE-B9F977CCCAD7} = {40B8AEE6-3C13-4829-8DAB-A88F06F403F6}
+		{289A4230-C9C7-4D56-AAF4-21FF58410868} = {C8321C5F-6139-409D-B854-9A1A9C26FEB1}
+		{2E5F4887-E390-4598-B7BD-9B3E63E513E0} = {E025AD66-755A-41AE-8A1F-BDA88EDA747F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14CF5F0C-E083-4EC5-87F8-4826CD4FEA49}
+	EndGlobalSection
+EndGlobal

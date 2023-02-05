@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1-Aplication\pnb.api.easybox.aplication\pnb.api.easybox.aplication.csproj" />
+    <ProjectReference Include="..\..\2-Domain\pnb.api.easybox.domain\pnb.api.easybox.domain.csproj" />
+    <ProjectReference Include="..\..\3-Infra\pnb.api.easybox.proxy\pnb.api.easybox.proxy.csproj" />
+    <ProjectReference Include="..\..\3-Infra\pnb.api.easybox.repository\pnb.api.easybox.repository.csproj" />
+  </ItemGroup>
+
+</Project>

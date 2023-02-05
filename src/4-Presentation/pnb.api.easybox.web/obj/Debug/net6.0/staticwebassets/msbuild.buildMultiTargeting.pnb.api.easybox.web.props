@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\pnb.api.easybox.web.props" />
+</Project>

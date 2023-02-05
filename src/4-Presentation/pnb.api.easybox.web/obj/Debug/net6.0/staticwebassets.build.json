@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZbJlUB0vPyMZY34i475HRNjo9TfwffpZpXzSfOCzYyI=",
+  "Source": "pnb.api.easybox.web",
+  "BasePath": "_content/pnb.api.easybox.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
